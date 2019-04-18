@@ -20,7 +20,7 @@ install.packages('dplyr')
 ```
 
 ### Obtaining GCash Transaction History
-1. Download GCash app in [Android]()https://play.google.com/store/apps/details?id=com.globe.gcash.android&hl=en or [iOS](https://itunes.apple.com/ph/app/gcash/id520020791?mt=8)
+1. Download GCash app in [Android](https://play.google.com/store/apps/details?id=com.globe.gcash.android&hl=en) or [iOS](https://itunes.apple.com/ph/app/gcash/id520020791?mt=8)
 2. As of v5.15.3:410, go to Home > Transaction History to email the details to email account. Please check if you need to be a Verified User with a Verified Email Account for that one. Take note transactions need 24 hours before they're made available.
 3. Download the PDF. Might land in your Spam folder. Take note of password in their instructions.
 
