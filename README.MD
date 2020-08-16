@@ -9,20 +9,20 @@ This script helps you transform pages of PDF tables into a nice CSV file, specif
 Requires the following packages:
 * rJava (requires JDK with your system)
 * tabulizer
-* tidyr
-* dplyr
+* tidyverse
 
 ```
 install.packages('rJava)
 install.packages('tabulizer')
-install.packages('tidyr')
-install.packages('dplyr')
+install.packages('tidyverse')
+install.packages('data.table')
+install.packages('lubridate')
 ```
 
 ### Obtaining GCash Transaction History
 1. Download GCash app in [Android](https://play.google.com/store/apps/details?id=com.globe.gcash.android&hl=en) or [iOS](https://itunes.apple.com/ph/app/gcash/id520020791?mt=8)
-2. As of v5.15.3:410, go to Home > Transaction History to email the details to email account. Please check if you need to be a Verified User with a Verified Email Account for that one. Take note transactions need 24 hours before they're made available.
-3. Download the PDF. Might land in your Spam folder. Take note of password in their instructions.
+2. As of v5.31.0:558, go to Home > Transaction History to email the details to email account. Please check if you need to be a Verified User with a Verified Email Account for that one. Take note transactions need 24 hours before they're made available.
+3. Download the PDF. Might land in your Spam folder. Take note of password in their instructions and the number of pages in the document.
 
 ### User Input
 
