@@ -217,6 +217,6 @@ ExtractTxnHistory2CSV <- function(pdf_file, pass_word, pages) {
 
 # User Input
 setwd("INPUT FOLDER HERE")
-ExtractTxnHistory2CSV("INSERT FILE WITH FILE EXT HERE",
-                      "INSERT PASSWORD HERE",
-                      "INSERT NUMBER OF PAGES HERE, NO QUOTATION MARKS")
+ExtractTxnHistory2CSV("INSERT FILE WITH FILE EXT HERE",                  # "transaction_history.pdf"
+                      "INSERT PASSWORD HERE",                            # "surname_last-4-digits-of-mobtel"
+                      "INSERT NUMBER OF PAGES HERE, NO QUOTATION MARKS") # 2

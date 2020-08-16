@@ -32,9 +32,9 @@ Take note to change the following fields at the end of the file.
 
 ```
 setwd("INPUT FOLDER HERE")
-ExtractTables("INSERT FILE WITH FILE EXT HERE",
-              "INSERT PASSWORD HERE",
-              "INSERT NUMBER OF PAGES HERE, NO QUOTATION MARKS")
+ExtractTxnHistory2CSV("INSERT FILE WITH FILE EXT HERE",                  # "transaction_history.pdf"
+                      "INSERT PASSWORD HERE",                            # "surname_last-4-digits-of-mobtel"
+                      "INSERT NUMBER OF PAGES HERE, NO QUOTATION MARKS") # 2
 ```
 
 ## Built With
