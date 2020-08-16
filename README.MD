@@ -10,6 +10,8 @@ Requires the following packages:
 * rJava (requires JDK with your system)
 * tabulizer
 * tidyverse
+* data.table
+* lubridate
 
 ```
 install.packages('rJava)
